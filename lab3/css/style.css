@@ -1,0 +1,43 @@
+main {
+  width: 50%;
+  
+  margin: auto;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section{
+    
+    width: 100%;
+}
+label{
+    margin-bottom: 10px;
+}
+button{
+    
+    display: block !important;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 30px !important;
+}
+
+
+
+
+
+table{
+    width: 70% !important;
+    text-align: center;
+    margin-top: 80px !important;
+    margin: auto;
+    
+}
+.clear{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}

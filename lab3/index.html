@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users Data Saved In LocalStorage</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Submit User Data</h1>
+    <main>
+      <section>
+        <form action="users.html">
+          <label for="nameInput">Name:</label>
+          <input
+            type="text"
+            required
+            id="nameInput"
+            name="name"
+            class="form-control"
+          />
+
+          <label for="ageInput">Age:</label>
+          <input
+            type="number"
+            required
+            id="ageInput"
+            name="age"
+            class="form-control"
+          />
+
+          <button id="submitBtn" type="button" class="btn btn-success">
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
